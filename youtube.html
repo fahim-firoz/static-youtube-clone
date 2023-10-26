@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>youtube.com clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="csscodes/video.css" />
+    <link rel="stylesheet" href="csscodes/header.css" />
+    <link rel="stylesheet" href="csscodes/commoncode.css" />
+    <link rel="stylesheet" href="csscodes/sidebar.css" />
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="header icons/hamburger-menu.svg" />
+        <img class="youtube-logo" src="header icons/imagen-mytube-0ori.jpg" />
+      </div>
+      <div class="middle-section">
+        <input class="textbox" type="text" placeholder="Search" />
+
+        <!-- Put position absolute inside a position relative to create tooltips,
+        to put items inside another item like we put notification number
+        inside notification icon-->
+        <button class="search-button">
+          <img class="search-icon" src="header icons/search.svg" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="header icons/voice-search-icon.svg"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="header icons/upload.svg" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="app-icon-container">
+          <img class="app-icon" src="header icons/youtube-apps.svg" />
+          <div class="tooltip">Youtube apps</div>
+        </div>
+
+        <div class="notification">
+          <img class="notification-icon" src="header icons/notifications.svg" />
+          <div class="notification-number">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+
+        <img class="mychannel-icon" src="header icons/unnamed.png" />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar icons/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar icons/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar icons/subscriptions.svg" />
+        <div>Subsriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar icons/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar icons/youtube-music.svg" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar icons/Library.svg" />
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="youtube images/thumbnail-1.webp" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="youtube images/channel-1.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="youtuber">Marques Brownlee</p>
+            <p class="video-stats">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="youtube images/thumbnail-2.webp" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="youtube images/channel-2.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="youtuber">Markiplier</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=G4w" target="_blank">
+            <img class="thumbnail" src="youtube images/thumbnail-3.webp" />
+          </a>
+
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="youtube images/channel-3.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Lionel Messi - The GOAT - Official Movie</p>
+            <p class="youtuber">MagicalMessi</p>
+            <p class="video-stats">28M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="youtube images/thumbnail-4.webp" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="youtube images/channel-4.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Goalkeepers HATE This Shot, So I Learned how to Do it
+            </p>
+            <p class="youtuber">Kieran Brown</p>
+            <p class="video-stats">5M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="youtube images/thumbnail-5.webp" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="youtube images/channel-5.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">100 Kids vs 1 Pro</p>
+            <p class="youtuber">Beast Reacts</p>
+            <p class="video-stats">50M views &#183; 11 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a
+            href="https://www.youtube.com/watch?v=dVYESYsHhas&ab_channel=AKSHAY-VLOGGER"
+            target="_blank"
+          >
+            <img class="thumbnail" src="youtube images/thumbnail-6.webp" />
+          </a>
+
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="youtube images/channel-6.jpg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">BRILLIANT PEOPLE!!🤣</p>
+            <p class="youtuber">AKSHAY-VLOGGER</p>
+            <p class="video-stats">1.2M views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

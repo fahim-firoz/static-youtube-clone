@@ -1,0 +1,40 @@
+img {
+   width: 50px;
+   border-radius: 25px;
+   float: left;
+   margin-right: 10px;
+   object-fit: cover;
+ }
+ p.username {
+   font-weight: bold;
+ }
+ p.profile {
+   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif,
+     Geneva, Tahoma, sans-serif;
+   font-style: italic;
+ }
+ em {
+   color: red;
+   font-style: normal;
+ }
+ button.tweet {
+   background-color: rgb(29, 155, 240);
+   color: white;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 14px;
+   padding-right: 14px;
+   border-radius: 50px;
+   cursor: pointer;
+   border: none;
+   margin-left: 10px;
+   font-weight: bold;
+   transition: opacity 0.15s, box-shadow 0.15s;
+ }
+ button.tweet:hover {
+   background-color: rgb(12, 161, 247);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+ }
+ button.tweet:active {
+   opacity: 0.5;
+ }
